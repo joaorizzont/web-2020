@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+.description {
+  display: flex;
+  background-color: white;
+  width: 20%;
+  justify-content: center;
+}
+
+.stock {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.stock-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 20%;
+  border-style: outset;
+}
+
+h2,
+h3,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+th {
+  width: 50vh;
+}
+
+td{
+  width: 50vh;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+}
+
+.description {
+  width: 70%;
+  vertical-align: text-top;
+}
+
+
+.interests{
+  display: block;
+  width: 100%;
+  margin-left: 15vh;
+}
+
+
